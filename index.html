@@ -30,7 +30,7 @@
 				<div>
 					<label for="date">Date of Birth</label>
 
-					<input class="date" type="date" name="date">
+					<input class="date" type="date" name="date" required aria-required="true ">
 
 				</div>
 
@@ -57,7 +57,7 @@
 				<div>
 					<label for="startdate">Start Date</label>
 
-					<input class="startdate" type="date" name="startdate">
+					<input class="startdate" type="date" name="startdate" required aria-required="true ">
 
 				</div>
 
@@ -68,12 +68,12 @@
 
 				<div>
 					<label for="color">Favorite Color</label>
-					<input id="color" name="color" type="color">
+					<input id="color" name="color" type="color" required aria-required="true ">
 				</div>
 
 				<div>
 					<label for="textarea">Explain why</label>
-					<textarea cols="40" rows="1" name="textarea" id="textarea"></textarea>
+					<textarea cols="40" rows="1" name="textarea" id="textarea" required aria-required="true "></textarea>
 				</div>
 				<br />
 
@@ -82,6 +82,28 @@
 					<input id="rate" name="rate" type="range" min="1" max="10" value="5">
 
 				</div>
+				<div class="radio">
+			         <label for="radio-choice-1">Click for email updates</label>
+			         <input type="radio" name="radio-choice-1" id="radio-choice-1" tabindex="2" value="choice-1" />
+
+					 <label for="radio-choice-2">Terms and Conditions</label>
+			         <input type="radio" name="radio-choice-2" id="radio-choice-2" tabindex="3" value="choice-2" />
+			    </div>
+
+			    <div>
+					<label for="select-choice">Would you share?</label>
+					<select name="select-choice" id="select-choice">
+						<option value="Choice 1">Yes, on Facebook</option>
+						<option value="Choice 2">Yes, with friends and family</option>
+						<option value="Choice 3">No</option>
+					</select>
+				</div>
+
+			    <div class="submit">
+				    <input type="submit" value="Submit" />
+			    </div>
+
+			    <br>
 
 			</form>
 

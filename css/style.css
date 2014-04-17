@@ -20,13 +20,19 @@ h1 {
 label {
 }
 
-input, textarea {
+input, textarea, select {
 	float: right;
 	width: 80%;
 	border-radius: 5px
 }
 
-.checkbox input {
+.checkbox input, .radio input {
 	float: none;
 	width: 10%;
+}
+
+.submit input {
+	background-color: #E84742;
+	border-radius: 10px;
+	color: #fff;
 }
