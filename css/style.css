@@ -36,3 +36,9 @@ input, textarea, select {
 	border-radius: 10px;
 	color: #fff;
 }
+
+.submit input:hover {
+	background-color: #fff;
+	color: #000;
+	border: 2px solid #E84742;
+}
