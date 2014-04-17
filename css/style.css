@@ -35,6 +35,7 @@ input, textarea, select {
 	background-color: #E84742;
 	border-radius: 10px;
 	color: #fff;
+	width: 100%;
 }
 
 .submit input:hover {
