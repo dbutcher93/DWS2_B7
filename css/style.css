@@ -1,0 +1,32 @@
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 1px 5px 10px #fff;
+	border-radius: 5px
+}
+body {
+	background-color: #000;
+}
+
+form div {
+	padding: 1%;
+}
+
+h1 {
+	text-align: center;
+}
+
+label {
+}
+
+input, textarea {
+	float: right;
+	width: 80%;
+	border-radius: 5px
+}
+
+.checkbox input {
+	float: none;
+	width: 10%;
+}
